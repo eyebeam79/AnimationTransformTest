@@ -21,6 +21,7 @@
 		D2982C6D187BB230004E8886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982C4F187BB230004E8886 /* UIKit.framework */; };
 		D2982C75187BB231004E8886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2982C73187BB231004E8886 /* InfoPlist.strings */; };
 		D2982C77187BB231004E8886 /* AnimationTransformTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982C76187BB231004E8886 /* AnimationTransformTestTests.m */; };
+		D2982C82187BB268004E8886 /* Apple_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D2982C81187BB268004E8886 /* Apple_Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D2982C72187BB231004E8886 /* AnimationTransformTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationTransformTestTests-Info.plist"; sourceTree = "<group>"; };
 		D2982C74187BB231004E8886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2982C76187BB231004E8886 /* AnimationTransformTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTransformTestTests.m; sourceTree = "<group>"; };
+		D2982C81187BB268004E8886 /* Apple_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Apple_Logo.png; path = Resources/Apple_Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		D2982C3F187BB230004E8886 = {
 			isa = PBXGroup;
 			children = (
+				D2982C80187BB251004E8886 /* Resources */,
 				D2982C51187BB230004E8886 /* AnimationTransformTest */,
 				D2982C70187BB231004E8886 /* AnimationTransformTestTests */,
 				D2982C4A187BB230004E8886 /* Frameworks */,
@@ -150,6 +153,14 @@
 				D2982C73187BB231004E8886 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2982C80187BB251004E8886 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2982C81187BB268004E8886 /* Apple_Logo.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 				D2982C64187BB230004E8886 /* Images.xcassets in Resources */,
 				D2982C56187BB230004E8886 /* InfoPlist.strings in Resources */,
 				D2982C5F187BB230004E8886 /* Main.storyboard in Resources */,
+				D2982C82187BB268004E8886 /* Apple_Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
